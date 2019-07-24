@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: mmall-product-service
+
+mybatis:
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  type-aliases-package: com.oecoo.product.entity.pojo
