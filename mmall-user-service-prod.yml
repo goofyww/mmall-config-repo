@@ -1,0 +1,10 @@
+env:
+  prod
+
+spring:
+  datasource:
+      name: user-service
+      url: jdbc:mysql://127.0.0.1:3306/mmall?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
