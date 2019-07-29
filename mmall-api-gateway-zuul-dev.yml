@@ -1,0 +1,9 @@
+env:
+  dev
+
+spring:
+  rabbitmq:
+      host: www.oecoo.com
+      port: 5672
+      username: guest
+      password: guest
