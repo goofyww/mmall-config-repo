@@ -1,8 +1,8 @@
 env:
   dev
 user:
-  name: tommww
-  age: 18
+  name: goofyww
+  age: 25
 spring:
   datasource:
       name: user-service
