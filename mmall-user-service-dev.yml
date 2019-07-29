@@ -1,7 +1,7 @@
 env:
-  dev1234567
+  dev
 user:
-  name: goofyww
+  name: tomrrow
   age: 25
 spring:
   datasource:
