@@ -16,8 +16,8 @@ zuul:
     connect-timeout-millis: 10000
     max-total-connections: 20000
   # 设置不对外 的 Api，让其仅在服务间调用可用，外部不可访问
-  ignored-patterns:
-    - /**/*Mapper/**
+  #ignored-patterns:
+   # - /**/*Mapper/**
   routes:
   # /product/** -> /mmall-product-service/**  路由至对应服务下的 Api
   # 1.0 标准写法
