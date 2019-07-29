@@ -1,7 +1,7 @@
 env:
   dev 
 user:
-  name: 山鸡
+  name: goofyww
   age: 18
 spring:
   datasource:
