@@ -2,6 +2,27 @@ env:
   dev
 
 spring:
+  cloud:
+    stream:
+      bindings:
+        decr_product_count:
+          destination: decr_product_count  #exchange名称，交换模式默认是topic
+          group: product
+        decr_product_count_result:
+          destination: decr_product_count_result
+          group: product
+        incr_product_count:
+          destination: incr_product_count
+          group: product
+        incr_product_count_result:
+          destination: incr_product_count_result
+          group: product
+        clean_carts:
+          destination: clean_carts
+          group: cart
+        clean_carts_result:
+          destination: clean_carts_result
+          group: cart
   datasource:
     name: order-service
     url: jdbc:mysql://127.0.0.1:3306/mmall?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
