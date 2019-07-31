@@ -2,8 +2,8 @@ env:
   dev
   
 user:
-  name: goofyww
-  age: 18
+  name: green
+  age: 25
   
 spring:
   cloud:
