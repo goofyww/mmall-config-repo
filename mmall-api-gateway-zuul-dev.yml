@@ -2,22 +2,12 @@ env:
   dev
 
 spring:
-  cloud:
-#   Config2.x 版本使用webhooks无法刷新client配置的解决方案
-    bus:
-      id: ${spring.application.name}:${spring.cloud.config.profile}:${random.value}
   rabbitmq:
       host: www.oecoo.com
       port: 5672
       username: guest
       password: guest
-      
-management:
-  endpoints:
-    web:
-      exposure:
-        include: monitor
-
+     
 zuul:
 #   重置全局敏感头 保证路由时携带必要的 request-header信息
   sensitive-headers:
