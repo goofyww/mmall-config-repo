@@ -17,8 +17,8 @@ zuul:
   routes:
 #   /product/** -> /mmall-product-service/**  路由至对应服务下的 Api
 #   1.0 标准写法
-    product:
-      path: /product/**
+    myproduct:
+      path: /myproduct/**
       serviceId: mmall-product-service
 #      重置敏感头，保证路由时携带 request-header信息
 #      sensitiveHeaders:
