@@ -3,7 +3,7 @@ env:
   
 user:
   name: goofyww
-  age: 18
+  age: 24
   
 spring:
   datasource:
