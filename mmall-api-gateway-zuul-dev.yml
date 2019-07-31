@@ -38,9 +38,9 @@ zuul:
     user:
       path: /user/**
       serviceId: mmall-user-service
-#    config:
-#      path: /config/**
-#      serviceId: mmall-api-gateway-zuul
+    config:
+      path: /config/**
+      serviceId: mmall-api-gateway-zuul
 #   2.0 简洁写法
 #      mmall-product-service: /product/**
 #      mmall-cart-service: /cart/**
