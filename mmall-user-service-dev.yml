@@ -2,8 +2,8 @@ env:
   dev
   
 user:
-  name: greenww
-  age: 25
+  name: goofyww
+  age: 18
   
 spring:
   datasource:
