@@ -2,6 +2,15 @@ env:
   dev
 
 spring:
+  cloud:
+    stream:
+      bindings:
+        clean_carts:
+          destination: clean_carts  #exchange名称，交换模式默认是topic
+          group: cart
+        clean_carts_result:
+          destination: clean_carts_result
+          group: cart
   datasource:
     name: cart-service
     url: jdbc:mysql://127.0.0.1:3306/mmall?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
