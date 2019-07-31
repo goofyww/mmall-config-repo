@@ -1,8 +1,10 @@
 env:
   dev
+  
 user:
   name: goofyww
   age: 18
+  
 spring:
   cloud:
 #     Config2.x 版本使用webhooks无法刷新client配置的解决方案
@@ -19,4 +21,9 @@ spring:
     port: 5672
     username: guest
     password: guest
-  
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: monitor
