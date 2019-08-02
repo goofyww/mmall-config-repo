@@ -22,8 +22,8 @@ zuul:
       serviceId: mmall-product-service
 #      重置敏感头，保证路由时携带 request-header信息
 #      sensitiveHeaders:
-    mycart:
-      path: /mycart/**
+    mcart:
+      path: /mcart/**
       serviceId: mmall-cart-service
     order:
       path: /order/**
