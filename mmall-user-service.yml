@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: mmall-user-service
-
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
   type-aliases-package: com.oecoo.user.entity.pojo
