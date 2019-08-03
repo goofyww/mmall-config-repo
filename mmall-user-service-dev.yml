@@ -2,7 +2,7 @@ env:
   dev
   
 user:
-  name: tom
+  name: greenww
   age: 24
   
 spring:
