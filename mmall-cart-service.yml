@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: mmall-cart-service
-
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
   type-aliases-package: com.oecoo.cart.entity.pojo
