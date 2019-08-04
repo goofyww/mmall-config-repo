@@ -35,6 +35,13 @@ spring:
     username: guest
     password: guest
     
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 20000
+        readTimeout: 20000
+    
 #mmall-product-service:
 #  ribbon:
 #    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
