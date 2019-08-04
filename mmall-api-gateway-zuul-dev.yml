@@ -9,10 +9,6 @@ spring:
       password: guest
             
 zuul:
-  host:
-    socket-timeout-millis: 10000
-    connect-timeout-millis: 10000
-    max-total-connections: 20000
 #   重置全局敏感头 保证路由时携带必要的 request-header信息
   sensitive-headers:
 #   设置不对外 的 Api，让其仅在服务间调用可用，外部不可访问
