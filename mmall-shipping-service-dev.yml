@@ -4,7 +4,7 @@ env:
 spring:
   datasource:
     name: shipping-service
-    url: jdbc:mysql://127.0.0.1:3306/mmall?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/mmall?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=true
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
